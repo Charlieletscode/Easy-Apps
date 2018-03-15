@@ -29,7 +29,7 @@ public class CreditCard {
         carddigit = carddigit.replace(" ",""); // better way?
         // input string -> int
         for(int i = 0; i < 4; i++){
-            for(int j = 0; j < 4; j++){
+            for(int j = 0; j < 4; j++) {
                 temp = i * 4 + j;
         arr[i][j] = carddigit.charAt(temp) - '0'; // better way!!!
 //                System.out.println(arr[i][j]);
