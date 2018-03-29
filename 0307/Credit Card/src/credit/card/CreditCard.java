@@ -26,12 +26,12 @@ public class CreditCard {
         Scanner s = new Scanner(System.in);
         System.out.println("pls enter ur creditcard number");
         carddigit = s.nextLine();    
-        carddigit = carddigit.replace(" ",""); // better way?
+        carddigit = carddigit.replace(" ",""); 
         // input string -> int
         for(int i = 0; i < 4; i++){
             for(int j = 0; j < 4; j++) {
                 temp = i * 4 + j;
-        arr[i][j] = carddigit.charAt(temp) - '0'; // better way!!!
+        arr[i][j] = carddigit.charAt(temp) - '0'; 
 //                System.out.println(arr[i][j]);
 //                System.out.println(evendigit(arr,i,j));
 //                System.out.println(odddigit(arr,i,j));
